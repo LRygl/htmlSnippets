@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body,html {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05em;
+  height: 100%;
+  min-height: 100vh;
+  min-height: -moz-available;   
+  min-height: -webkit-fill-available; 
+  min-height: stretch;
+}
+
+main{
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  height: -moz-available;          /* WebKit-based browsers will ignore this. */
+  height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+  height: stretch;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.companyLogoContainer{
+  background-color: #333;
+  font-weight: 600;
+}
+
+.sideBar{
+  width: 260px;
+
+}
+
+.nav{
+  font-weight: 400;
+  font-size: 16px;
+}
+.companyLogo {
+  vertical-align: -.125em;
+  pointer-events: none;
+  fill: #FFFFFF;
+}
+.username{
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.subtext{
+  font-weight: 400;
+  font-size: 12px;
+}
+
+
+
+.menuIcon{
+  fill: #FFFFFF;
+}
+
+.userSectionContainer{
+  border-top: rgb(156, 37, 37) 1px;
+}
+.circleIcon{
+  background: #ffc0c0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}
+
+
+.nav-item:hover{
+  background-color: #333;
+}
+
+.nav-item:hover .menuIcon{
+  fill: aqua;
+  transition: all 0.4s ease;
+}
+
+.fa-flag{
+  color:red;
+}
